@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expand"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:paddingVertical="15dp"
+        android:background="@null"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/expand_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Content"
+        android:textSize="18sp"
+        android:paddingVertical="10dp"
+        android:background="@null"
+        android:gravity="start"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/expand_content"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginVertical="3dp"
+    android:layout_marginHorizontal="3dp"
+    android:background="@drawable/item_bg"
+    android:paddingVertical="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/item_title"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1px"-->
+<!--        android:background="#4D000000"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why is called Android?
+Andy Rubin worked at the Apple company for a number of years before creating Android and joining the Google ecosystem. When he was working at Apple, Andy was given the nickname “Android” based on his love of robots. The name was also quite similar to Andy's actual title, “Andy” or “Andrew”."
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:maxLines="12"
+        android:id="@+id/item_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
